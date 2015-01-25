@@ -18,4 +18,4 @@ sudo apt-get -y install build-essential git libboost-all-dev g++ git subversion 
 cd
 git clone https://github.com/moses-smt/mosesdecoder.git
 cd mosesdecoder/
-./bjam -j8
+sudo ./bjam -j8
