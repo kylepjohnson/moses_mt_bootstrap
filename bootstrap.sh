@@ -27,24 +27,24 @@ cd giza-pp
 make
 
 # built ginza files need to be moved for moses to find it
-cd ~/mosesdecoder
-mkdir tools
-cp ~/giza-pp/GIZA++-v2/GIZA++ ~/giza-pp/GIZA++-v2/snt2cooc.out ~/giza-pp/mkcls-v2/mkcls tools
+#cd ~/mosesdecoder
+#mkdir tools
+#cp ~/giza-pp/GIZA++-v2/GIZA++ ~/giza-pp/GIZA++-v2/snt2cooc.out ~/giza-pp/mkcls-v2/mkcls tools
 
 
 # IRSTLM is a language modelling toolkit from FBK
-cd
-curl -L http://sourceforge.net/projects/irstlm/files/latest/download?source=files
-tar zxvf irstlm*
-cd irstlm*
-./regenerate-makefiles.sh
-./configure --prefix=$HOME/irstlm
-make install
+#cd
+#curl -L http://sourceforge.net/projects/irstlm/files/latest/download?source=files
+#tar zxvf irstlm*
+#cd irstlm*
+#./regenerate-makefiles.sh
+#./configure --prefix=$HOME/irstlm
+#make install
 
 
 # corpus prep
-cd
-mkdir corpus
-cd corpus 
-wget http://www.statmt.org/wmt13/training-parallel-nc-v8.tgz
-tar zxvf training-parallel-nc-v8.tgz
+#cd
+#mkdir corpus
+#cd corpus 
+#wget http://www.statmt.org/wmt13/training-parallel-nc-v8.tgz
+#tar zxvf training-parallel-nc-v8.tgz
