@@ -1,2 +1,2 @@
-# moses_mt_bootstrap
-Shell script to setup Moses MT system on Ubuntu 14.04
+# Moses MT bootstrap
+Shell script to setup the [Moses machine translation system](https://github.com/moses-smt/mosesdecoder) on Ubuntu 14.04.
