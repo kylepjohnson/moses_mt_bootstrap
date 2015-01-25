@@ -1,0 +1,4 @@
+script:
+- curl -O https://raw.githubusercontent.com/kylepjohnson/moses_mt_bootstrap/master/bootstrap.sh
+- chmod +x bootstrap.sh
+- ./bootstrap.sh no-update
