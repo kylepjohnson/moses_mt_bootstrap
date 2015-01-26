@@ -27,9 +27,11 @@ cd giza-pp
 make
 
 # built ginza files need to be moved for moses to find it
-#cd ~/mosesdecoder
-#mkdir tools
-#cp ~/giza-pp/GIZA++-v2/GIZA++ ~/giza-pp/GIZA++-v2/snt2cooc.out ~/giza-pp/mkcls-v2/mkcls tools
+cd ~/mosesdecoder
+mkdir tools
+cp ~/giza-pp/GIZA++-v2/GIZA++ tools
+cp ~/giza-pp/GIZA++-v2/snt2cooc.out tools
+cp ~/giza-pp/mkcls-v2/mkcls tools
 
 
 # IRSTLM is a language modelling toolkit from FBK
