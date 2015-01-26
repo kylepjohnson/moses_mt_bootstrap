@@ -38,7 +38,7 @@ cp ~/giza-pp/mkcls-v2/mkcls tools
 cd
 curl -L -o irstlm.tar.gz  http://sourceforge.net/projects/irstlm/files/latest/download?source=files
 tar zxvf irstlm.tar.gz
-cd irstlm*
+#cd irstlm*
 #./regenerate-makefiles.sh
 #./configure --prefix=$HOME/irstlm
 #make install
