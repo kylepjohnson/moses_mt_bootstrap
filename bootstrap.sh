@@ -36,12 +36,12 @@ cp ~/giza-pp/mkcls-v2/mkcls tools
 
 # IRSTLM is a language modelling toolkit from FBK
 cd
-curl -L -o irstlm.tar.gz  http://sourceforge.net/projects/irstlm/files/latest/download?source=files
-tar zxvf irstlm.tar.gz
+wget http://sourceforge.net/projects/irstlm/files/latest/download?source=files
+tar zxvf download?source=files
 #cd irstlm*
-#./regenerate-makefiles.sh
-#./configure --prefix=$HOME/irstlm
-#make install
+./regenerate-makefiles.sh
+./configure --prefix=$HOME/irstlm
+make install
 
 
 # corpus prep
